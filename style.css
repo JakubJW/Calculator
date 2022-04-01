@@ -1,0 +1,66 @@
+.title {
+  position: relative;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4em;
+  padding: .5em;
+  margin-bottom: 8px;
+}
+
+.calculator {
+  position: relative;
+  margin: auto;
+  display: block-inline;
+  padding: 1em 0;
+  width: 300px;
+  background-color: rgb(68, 68, 68);
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.row {
+  text-align: center;
+}
+
+.row div.screen {
+  display: table;
+  width: 73%;
+  background-color: rgb(170, 170, 170);
+  border: 1px solid rgb(85, 85, 85);
+  text-align: right;
+  font-size: 2em;
+  min-height: 1.2em;
+  margin: 7px auto;
+  padding-right: .5em;
+  padding-left: .5em;
+  padding-top: .1em;
+  color: #333;
+  border-radius: 5px;
+}
+
+.row div.button {
+  text-align: center;
+  display: inline-block;
+  border: 1px solid rgb(85, 85, 85);
+  background-color: rgb(238, 238, 238);
+  padding: 10px 0;
+  margin: 7px 5px;
+  border-radius: 5px;
+  width: 50px;
+  transition: all .3s ease-in-out;
+}
+
+.row div#reset.button
+{
+  background-color: rgb(255, 95, 95);
+}
+
+.row div#operator.button {
+  background-color: rgb(122, 122, 255);
+}
+
+.row div.button:hover {
+  opacity: 80%;
+  cursor: pointer;
+  font-weight: bold;
+}
